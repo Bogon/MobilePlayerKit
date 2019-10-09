@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MobilePlayer  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a title="MobilePlayer  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html">MobilePlayer Docs</a> (100% documented)</p>
+        <p class="header-right"><a href="https://github.com/mobileplayer/mobileplayer-ios"><img src="img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html">MobilePlayer Reference</a>
+        <img id="carat" src="img/carat.png" />
+        MobilePlayer  Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/BarConfig.html">BarConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/ButtonConfig.html">ButtonConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/ElementConfig.html">ElementConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/LabelConfig.html">LabelConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/MobilePlayerConfig.html">MobilePlayerConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/MobilePlayerOverlayViewController.html">MobilePlayerOverlayViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/MobilePlayerViewController.html">MobilePlayerViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/MobilePlayerViewController/State.html">– State</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/SliderConfig.html">SliderConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/ToggleButtonConfig.html">ToggleButtonConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/WatermarkConfig.html">WatermarkConfig</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Global Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Global Variables.html#/s:v12MobilePlayer41MobilePlayerDidEncounterErrorNotificationSS">MobilePlayerDidEncounterErrorNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Global Variables.html#/s:v12MobilePlayer28MobilePlayerErrorUserInfoKeySS">MobilePlayerErrorUserInfoKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Global Variables.html#/s:v12MobilePlayer38MobilePlayerStateDidChangeNotificationSS">MobilePlayerStateDidChangeNotification</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Enums/ElementType.html">ElementType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/ElementWidthCalculation.html">ElementWidthCalculation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/WatermarkPosition.html">WatermarkPosition</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            
+            <p><img src="http://i.imgur.com/W9QtXEp.png" alt="logo"></p>
+<a href='#mobileplayer-a-href-https-cocoapods-org-pods-mobileplayer-img-src-https-img-shields-io-cocoapods-p-mobileplayer-svg-style-flat-alt-cocoapods-a' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h1 id='mobileplayer-a-href-https-cocoapods-org-pods-mobileplayer-img-src-https-img-shields-io-cocoapods-p-mobileplayer-svg-style-flat-alt-cocoapods-a'>MobilePlayer <a href="https://cocoapods.org/pods/MobilePlayer"><img src="https://img.shields.io/cocoapods/p/MobilePlayer.svg?style=flat" alt="CocoaPods"></a></h1>
+
+<p><a href="https://codebeat.co/projects/github-com-mobileplayer-mobileplayer-ios"><img src="https://codebeat.co/badges/d9492bce-7a4b-4221-b7e0-9b5abf6dda6a" alt="codebeat badge"></a>
+<a href="http://cocoapods.org/?q=MobilePlayer"><img src="http://img.shields.io/cocoapods/v/MobilePlayer.svg?style=flat" alt="CocoaPods"></a>
+<a href="https://github.com/Carthage/Carthage"><img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" alt="Carthage compatible"></a>
+<a href="https://github.com/mobileplayer/mobileplayer-ios"><img src="https://img.shields.io/badge/dependencies-none-brightgreen.svg" alt="Dependencies"></a>
+<a href="https://waffle.io/mobileplayer/mobileplayer-ios"><img src="https://badge.waffle.io/mobileplayer/mobileplayer-ios.png?label=Ready&amp;title=Ready" alt="Ready"></a>
+<a href="http://stackoverflow.com/questions/ask?tags=mobile%20player+ios+swift+video%20player"><img src="https://img.shields.io/badge/StackOverflow-Ask%20a%20question!-blue.svg" alt="StackOverflow"></a>
+<a href="https://gitter.im/mobileplayer/mobileplayer-ios?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge"><img src="https://badges.gitter.im/Join%20Chat.svg" alt="Join the chat at https://gitter.im/mobileplayer/mobileplayer-ios"></a></p>
+
+<p>A powerful and completely customizable media player for iOS.</p>
+
+<p><img src="http://imgur.com/uDq19mw.gif" alt="introduction"></p>
+<a href='#table-of-contents' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h1 id='table-of-contents'>Table of Contents</h1>
+
+<ol>
+<li><a href="#features">Features</a></li>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#usage">Usage</a></li>
+<li><a href="#customization">Customization</a>
+
+<ul>
+<li><a href="#skinning">Skinning</a></li>
+<li><a href="#showing-overlays">Showing overlays</a></li>
+<li><a href="#showing-timed-overlays">Showing timed overlays</a></li>
+<li><a href="#pre-roll">Pre-roll</a></li>
+<li><a href="#pause-overlay">Pause overlay</a></li>
+<li><a href="#post-roll">Post-roll</a></li>
+</ul></li>
+<li><a href="#examples">Examples</a></li>
+<li><a href="#documentation">Documentation</a></li>
+<li><a href="#license">License</a></li>
+</ol>
+<a href='#features' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h1 id='features'>Features</h1>
+
+<ul>
+<li>Branding
+
+<ul>
+<li>Flexible skinning. Add a watermark, add/remove/move/resize interface elements, change their appearances and much more.</li>
+<li>Easily set up A/B tests. You can manage multiple player skins and configurations. Player view controllers can load configuration data from a local JSON file or remote JSON data. You also have the option to initialize and pass configuration objects programmatically, which allows for greater flexibility.</li>
+</ul></li>
+<li>Engagement
+
+<ul>
+<li>Comes with a built-in share button.</li>
+<li>Standard sharing behavior can easily be modified.</li>
+<li>Show any view controller as pre-roll or post-roll content.</li>
+<li>Powerful overlay system. Add any view controller as an overlay to your video. Make them permanently visible, set them to appear in defined playback time intervals, or while playback is paused.</li>
+</ul></li>
+<li>100% documented.</li>
+</ul>
+<a href='#future-plans' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='future-plans'>Future plans</h3>
+
+<ul>
+<li>Well defined and extensive <code>NSNotification</code>s.</li>
+<li>Volume button and volume slider elements.</li>
+<li>Airplay support.</li>
+<li>Plugin support.</li>
+<li>Pre-bundled analytics plugins for various platforms.</li>
+<li>VAST support.</li>
+<li>Monetization.</li>
+</ul>
+<a href='#installation' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h1 id='installation'>Installation</h1>
+<a href='#a-href-https-github-com-cocoapods-cocoapods-cocoapods-a' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='a-href-https-github-com-cocoapods-cocoapods-cocoapods-a'><a href="https://github.com/CocoaPods/CocoaPods">CocoaPods</a></h3>
+
+<p>Add the following line in your <code>Podfile</code>.
+<code>
+pod &quot;MobilePlayer&quot;
+</code></p>
+<a href='#a-href-https-github-com-carthage-carthage-installing-carthage-carthage-a' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='a-href-https-github-com-carthage-carthage-installing-carthage-carthage-a'><a href="https://github.com/Carthage/Carthage#installing-carthage">Carthage</a></h3>
+
+<p>Add the following line to your <a href="https://github.com/Carthage/Carthage/blob/master/Documentation/Artifacts.md#cartfile">Cartfile</a>.
+<code>
+github &quot;mobileplayer/mobileplayer-ios&quot;
+</code></p>
+<a href='#usage' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h1 id='usage'>Usage</h1>
+<pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">MobilePlayer</span>
+
+<span class="k">let</span> <span class="nv">playerVC</span> <span class="o">=</span> <span class="kt">MobilePlayerViewController</span><span class="p">(</span><span class="nv">contentURL</span><span class="p">:</span> <span class="n">videoURL</span><span class="p">)</span>
+<span class="n">playerVC</span><span class="o">.</span><span class="n">title</span> <span class="o">=</span> <span class="s">"Vanilla Player - </span><span class="se">\(</span><span class="n">videoTitle</span><span class="se">)</span><span class="s">"</span>
+<span class="n">playerVC</span><span class="o">.</span><span class="n">activityItems</span> <span class="o">=</span> <span class="p">[</span><span class="n">videoURL</span><span class="p">]</span> <span class="c1">// Check the documentation for more information.</span>
+<span class="nf">presentMoviePlayerViewControllerAnimated</span><span class="p">(</span><span class="n">playerVC</span><span class="p">)</span>
+</code></pre>
+
+<p><img src="http://i.imgur.com/J6QpSKb.gif" alt="example-plain"></p>
+<a href='#customization' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h1 id='customization'>Customization</h1>
+
+<p><strong>Initialize using local configuration file</strong>
+<code>swift
+let bundle = NSBundle.mainBundle()
+let config = MobilePlayerConfig(fileURL: bundle.URLForResource(
+  &quot;WatermarkedPlayer&quot;,
+  withExtension: &quot;json&quot;)!)
+let playerVC = MobilePlayerViewController(
+  contentURL: videoURL,
+  config: config)
+playerVC.title = &quot;Watermarked Player - \(videoTitle)&quot;
+playerVC.activityItems = [videoURL]
+presentMoviePlayerViewControllerAnimated(playerVC)
+</code></p>
+
+<p><strong>Initialize using remote configuration data</strong>
+<code>swift
+guard let configURL = NSURL(string: &quot;https://goo.gl/c73ANK&quot;) else { return }
+let playerVC = MobilePlayerViewController(
+  contentURL: videoURL,
+  config: MobilePlayerConfig(fileURL: configURL))
+playerVC.title = &quot;Watermarked Player - \(videoTitle)&quot;
+playerVC.activityItems = [videoURL]
+presentMoviePlayerViewControllerAnimated(playerVC)
+</code></p>
+
+<p><strong>Configuration data</strong>
+<code>json
+{
+  &quot;watermark&quot;: {
+    &quot;image&quot;: &quot;MovielalaLogo&quot;
+  }
+}
+</code></p>
+
+<p><strong>Without a configuration file URL</strong>
+<code>swift
+let playerVC = MobilePlayerViewController(
+  contentURL: videoURL,
+  config: MobilePlayerConfig(
+    dictionary: [&quot;watermark&quot;: [&quot;image&quot;: &quot;MovielalaLogo&quot;]]))
+playerVC.title = &quot;Watermarked Player - \(videoTitle)&quot;
+playerVC.activityItems = [videoURL]
+presentMoviePlayerViewControllerAnimated(playerVC)
+</code></p>
+
+<p><strong>Result</strong>
+<img src="http://i.imgur.com/tGodgQx.png" alt="example-customization"></p>
+<a href='#skinning' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='skinning'>Skinning</h3>
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"watermark"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nt">"image"</span><span class="p">:</span><span class="w"> </span><span class="s2">"MovielalaLogo"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"position"</span><span class="p">:</span><span class="w"> </span><span class="s2">"topRight"</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nt">"topBar"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nt">"backgroundColor"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"#a60500b0"</span><span class="p">,</span><span class="w"> </span><span class="s2">"#a60500a0"</span><span class="p">],</span><span class="w">
+    </span><span class="nt">"elements"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"button"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"identifier"</span><span class="p">:</span><span class="w"> </span><span class="s2">"close"</span><span class="w">
+      </span><span class="p">},</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"slider"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"identifier"</span><span class="p">:</span><span class="w"> </span><span class="s2">"playback"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"trackHeight"</span><span class="p">:</span><span class="w"> </span><span class="mi">6</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"trackCornerRadius"</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"minimumTrackTintColor"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#eee"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"availableTrackTintColor"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#9e9b9a"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"maximumTrackTintColor"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#cccccc"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"thumbTintColor"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#f9f9f9"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"thumbBorderWidth"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"thumbBorderColor"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#fff"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"marginRight"</span><span class="p">:</span><span class="w"> </span><span class="mi">4</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nt">"bottomBar"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nt">"backgroundColor"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"#a60500a0"</span><span class="p">,</span><span class="w"> </span><span class="s2">"#a60500b0"</span><span class="p">],</span><span class="w">
+    </span><span class="nt">"elements"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"label"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"text"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Now Watching"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"font"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Baskerville"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"size"</span><span class="p">:</span><span class="w"> </span><span class="mi">12</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"marginLeft"</span><span class="p">:</span><span class="w"> </span><span class="mi">8</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"marginRight"</span><span class="p">:</span><span class="w"> </span><span class="mi">8</span><span class="w">
+      </span><span class="p">},</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"label"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"identifier"</span><span class="p">:</span><span class="w"> </span><span class="s2">"title"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"size"</span><span class="p">:</span><span class="w"> </span><span class="mi">14</span><span class="w">
+      </span><span class="p">},</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"button"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"identifier"</span><span class="p">:</span><span class="w"> </span><span class="s2">"action"</span><span class="w">
+      </span><span class="p">},</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"toggleButton"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"identifier"</span><span class="p">:</span><span class="w"> </span><span class="s2">"play"</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+
+<p>For all available <code>identifier</code>s, check the documentation or <a href="https://github.com/mobileplayer/mobileplayer-ios/blob/master/MobilePlayer/Config/ElementConfig.swift#L51">here</a>. Same <code>identifier</code> value shouldn&rsquo;t be used more than once in a single configuration.</p>
+
+<p><strong>Result</strong>
+<img src="http://i.imgur.com/YyiYJCc.png" alt="example-skinning"></p>
+
+<p><strong>Example designs</strong>
+<img src="http://i.imgur.com/qNDrx9T.gif" alt="example-design-skinning"></p>
+<a href='#showing-overlays' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='showing-overlays'>Showing overlays</h3>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">playerVC</span> <span class="o">=</span> <span class="kt">MobilePlayerViewController</span><span class="p">(</span><span class="nv">contentURL</span><span class="p">:</span> <span class="n">videoURL</span><span class="p">)</span>
+<span class="n">playerVC</span><span class="o">.</span><span class="n">title</span> <span class="o">=</span> <span class="n">videoTitle</span>
+<span class="n">playerVC</span><span class="o">.</span><span class="n">activityItems</span> <span class="o">=</span> <span class="p">[</span><span class="n">videoURL</span><span class="p">]</span>
+<span class="nf">presentMoviePlayerViewControllerAnimated</span><span class="p">(</span><span class="n">playerVC</span><span class="p">)</span>
+<span class="kt">ProductStore</span><span class="o">.</span><span class="nf">getProduct</span><span class="p">(</span><span class="s">"1"</span><span class="p">,</span> <span class="nv">success</span><span class="p">:</span> <span class="p">{</span> <span class="n">product</span> <span class="k">in</span>
+  <span class="k">guard</span> <span class="k">let</span> <span class="nv">product</span> <span class="o">=</span> <span class="n">product</span> <span class="k">else</span> <span class="p">{</span> <span class="k">return</span> <span class="p">}</span>
+  <span class="n">playerVC</span><span class="o">.</span><span class="nf">showOverlayViewController</span><span class="p">(</span>
+    <span class="kt">BuyOverlayViewController</span><span class="p">(</span><span class="nv">product</span><span class="p">:</span> <span class="n">product</span><span class="p">))</span>
+<span class="p">})</span>
+</code></pre>
+
+<p><img src="http://i.imgur.com/wAtNYjE.png" alt="example-overlay"></p>
+<a href='#showing-timed-overlays' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='showing-timed-overlays'>Showing timed overlays</h3>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">playerVC</span> <span class="o">=</span> <span class="kt">MobilePlayerViewController</span><span class="p">(</span><span class="nv">contentURL</span><span class="p">:</span> <span class="n">videoURL</span><span class="p">)</span>
+<span class="n">playerVC</span><span class="o">.</span><span class="n">title</span> <span class="o">=</span> <span class="n">videoTitle</span>
+<span class="n">playerVC</span><span class="o">.</span><span class="n">activityItems</span> <span class="o">=</span> <span class="p">[</span><span class="n">videoURL</span><span class="p">]</span>
+<span class="nf">presentMoviePlayerViewControllerAnimated</span><span class="p">(</span><span class="n">playerVC</span><span class="p">)</span>
+<span class="kt">ProductStore</span><span class="o">.</span><span class="nf">getProductPlacementsForVideo</span><span class="p">(</span>
+  <span class="n">videoID</span><span class="p">,</span>
+  <span class="nv">success</span><span class="p">:</span> <span class="p">{</span> <span class="n">productPlacements</span> <span class="k">in</span>
+    <span class="k">guard</span> <span class="k">let</span> <span class="nv">productPlacements</span> <span class="o">=</span> <span class="n">productPlacements</span> <span class="k">else</span> <span class="p">{</span> <span class="k">return</span> <span class="p">}</span>
+    <span class="k">for</span> <span class="n">placement</span> <span class="k">in</span> <span class="n">productPlacements</span> <span class="p">{</span>
+      <span class="kt">ProductStore</span><span class="o">.</span><span class="nf">getProduct</span><span class="p">(</span><span class="n">placement</span><span class="o">.</span><span class="n">productID</span><span class="p">,</span> <span class="nv">success</span><span class="p">:</span> <span class="p">{</span> <span class="n">product</span> <span class="k">in</span>
+        <span class="k">guard</span> <span class="k">let</span> <span class="nv">product</span> <span class="o">=</span> <span class="n">product</span> <span class="k">else</span> <span class="p">{</span> <span class="k">return</span> <span class="p">}</span>
+        <span class="n">playerVC</span><span class="o">.</span><span class="nf">showOverlayViewController</span><span class="p">(</span>
+          <span class="kt">BuyOverlayViewController</span><span class="p">(</span><span class="nv">product</span><span class="p">:</span> <span class="n">product</span><span class="p">),</span>
+          <span class="nv">startingAtTime</span><span class="p">:</span> <span class="n">placement</span><span class="o">.</span><span class="n">startTime</span><span class="p">,</span>
+          <span class="nv">forDuration</span><span class="p">:</span> <span class="n">placement</span><span class="o">.</span><span class="n">duration</span><span class="p">)</span>
+      <span class="p">})</span>
+    <span class="p">}</span>
+<span class="p">})</span>
+</code></pre>
+
+<p><img src="http://i.imgur.com/FuaJB7O.gif" alt="example-timed-overlays"></p>
+<a href='#pre-roll' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='pre-roll'>Pre-roll</h3>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">playerVC</span> <span class="o">=</span> <span class="kt">MobilePlayerViewController</span><span class="p">(</span>
+  <span class="nv">contentURL</span><span class="p">:</span> <span class="n">videoURL</span><span class="p">,</span>
+  <span class="nv">prerollViewController</span><span class="p">:</span> <span class="kt">PrerollOverlayViewController</span><span class="p">())</span>
+<span class="n">playerVC</span><span class="o">.</span><span class="n">title</span> <span class="o">=</span> <span class="n">videoTitle</span>
+<span class="n">playerVC</span><span class="o">.</span><span class="n">activityItems</span> <span class="o">=</span> <span class="p">[</span><span class="n">videoURL</span><span class="p">]</span>
+<span class="nf">presentMoviePlayerViewControllerAnimated</span><span class="p">(</span><span class="n">playerVC</span><span class="p">)</span>
+</code></pre>
+
+<p><img src="http://i.imgur.com/oBV0HCF.png" alt="example-preroll"></p>
+<a href='#pause-overlay' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='pause-overlay'>Pause overlay</h3>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">playerVC</span> <span class="o">=</span> <span class="kt">MobilePlayerViewController</span><span class="p">(</span>
+  <span class="nv">contentURL</span><span class="p">:</span> <span class="n">videoURL</span><span class="p">,</span>
+  <span class="nv">pauseOverlayViewController</span><span class="p">:</span> <span class="kt">PauseOverlayViewController</span><span class="p">())</span>
+<span class="n">playerVC</span><span class="o">.</span><span class="n">title</span> <span class="o">=</span> <span class="n">videoTitle</span>
+<span class="n">playerVC</span><span class="o">.</span><span class="n">activityItems</span> <span class="o">=</span> <span class="p">[</span><span class="n">videoURL</span><span class="p">]</span>
+<span class="nf">presentMoviePlayerViewControllerAnimated</span><span class="p">(</span><span class="n">playerVC</span><span class="p">)</span>
+</code></pre>
+
+<p><strong>Result</strong>
+<img src="http://i.imgur.com/wfC9a7t.gif" alt="example-pause-overlay"></p>
+
+<p><strong>Example designs</strong>
+<img src="http://i.imgur.com/ectKEwy.gif" alt="example-design-pause-overlay"></p>
+<a href='#post-roll' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='post-roll'>Post-roll</h3>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">playerVC</span> <span class="o">=</span> <span class="kt">MobilePlayerViewController</span><span class="p">(</span>
+  <span class="nv">contentURL</span><span class="p">:</span> <span class="n">videoURL</span><span class="p">,</span>
+  <span class="nv">postrollViewController</span><span class="p">:</span> <span class="kt">PostrollOverlayViewController</span><span class="p">())</span>
+<span class="n">playerVC</span><span class="o">.</span><span class="n">title</span> <span class="o">=</span> <span class="n">videoTitle</span>
+<span class="n">playerVC</span><span class="o">.</span><span class="n">activityItems</span> <span class="o">=</span> <span class="p">[</span><span class="n">videoURL</span><span class="p">]</span>
+<span class="nf">presentMoviePlayerViewControllerAnimated</span><span class="p">(</span><span class="n">playerVC</span><span class="p">)</span>
+</code></pre>
+
+<p><strong>Result</strong>
+<img src="http://i.imgur.com/Hp8NEfg.png" alt="example-postroll"></p>
+
+<p><strong>Example designs</strong>
+<img src="http://i.imgur.com/MRVxNAt.gif" alt="example-design-postroll"></p>
+<a href='#examples' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h1 id='examples'>Examples</h1>
+
+<p>After cloning the repo, run the <code>MobilePlayerExamples</code> target to see examples for many use cases.
+<img src="http://i.imgur.com/ztOPUW6.gif" alt="examples"></p>
+<a href='#documentation' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h1 id='documentation'>Documentation</h1>
+
+<p>The entire documentation for the library can be found <a href="https://htmlpreview.github.io/?https://github.com/movielala/mobileplayer-ios/blob/master/Documentation/index.html">here</a>.</p>
+<a href='#license' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h1 id='license'>License</h1>
+
+<p>The use of the MobilePlayer open source edition is governed by a <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons license</a>. You can use, modify, copy, and distribute this edition as long as it’s for non-commercial use, you provide attribution, and share under a similar license.
+<a href="http://mobileplayer.io/license/">http://mobileplayer.io/license/</a></p>
+
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2016 <a class="link" href="https://mobileplayer.io" target="_blank" rel="external">MobilePlayer</a>. All rights reserved. (Last updated: 2016-10-11)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
